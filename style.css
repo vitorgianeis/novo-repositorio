@@ -447,15 +447,7 @@ body {
 /* ==================== */
 /* ESTRUTURA PRINCIPAL  */
 /* ==================== */
-.cabecalho-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
-}
+
 
 /* ==================== */
 /* MEDIA QUERIES - TABLET */
