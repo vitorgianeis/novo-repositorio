@@ -444,3 +444,116 @@ body {
 
 }
 
+/* ==================== */
+/* ESTRUTURA PRINCIPAL  */
+/* ==================== */
+.cabecalho-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
+
+/* ==================== */
+/* MEDIA QUERIES - TABLET */
+/* ==================== */
+@media (max-width: 1024px) {
+    /* Ajustes para tablets em paisagem */
+    .cabecalho-container {
+        padding: 1rem 1.8rem;
+    }
+    
+    .conteudo-principal {
+        padding-top: 6rem;
+    }
+    
+    .servicos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==================== */
+/* MEDIA QUERIES - TABLET PEQUENO */
+/* ==================== */
+@media (max-width: 768px) {
+    /* Ajustes para tablets em retrato */
+    .cabecalho-container {
+        padding: 1rem 1.5rem;
+    }
+    
+    .cabecalho-menu {
+        display: none; /* Menu será ativado pelo botão mobile */
+    }
+    
+    .menu-mobile {
+        display: block;
+    }
+    
+    .conteudo-principal {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 5rem;
+    }
+    
+    .conteudo-principal-imagem {
+        width: 80%;
+        margin: 2rem auto 0;
+    }
+    
+    .servicos-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==================== */
+/* MEDIA QUERIES - CELULAR GRANDE */
+/* ==================== */
+@media (max-width: 576px) {
+    /* Ajustes para celulares grandes (iPhone 12/13, Galaxy S20+, etc) */
+    .cabecalho-container {
+        padding: 0.8rem 1.2rem;
+    }
+    
+    .cabecalho-imagem {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .conteudo-principal-escrito-titulo {
+        font-size: 2rem;
+    }
+    
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 1.1rem;
+    }
+    
+    .portfolio-galeria {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==================== */
+/* MEDIA QUERIES - CELULAR PEQUENO */
+/* ==================== */
+@media (max-width: 400px) {
+    /* Ajustes para celulares pequenos (iPhone SE, etc) */
+    .cabecalho-container {
+        padding: 0.6rem 1rem;
+    }
+    
+    .conteudo-principal-escrito-titulo {
+        font-size: 1.8rem;
+    }
+    
+    .conteudo-principal-escrito-botao {
+        width: 100%;
+        padding: 0.8rem;
+    }
+    
+    .contato-botao {
+        width: 100%;
+    }
+}
