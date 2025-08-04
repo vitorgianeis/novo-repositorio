@@ -53,6 +53,27 @@ body {
     padding: 1rem 2rem;
 }
 
+/* Versão para tablets */
+@media (max-width: 992px) {
+    .cabecalho-container {
+        padding: 1rem 4%;
+    }
+}
+
+/* Versão para celulares */
+@media (max-width: 768px) {
+    .cabecalho-container {
+        padding: 0.8rem 3%;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    .cabecalho-container {
+        padding: 0.6rem 15px; /* Padding fixo em telas muito pequenas */
+    }
+}
+
 .cabecalho.scrolled {
     background-color: rgba(26, 26, 46, 0.98);
     box-shadow: var(--sombra);
@@ -457,7 +478,7 @@ body {
 .rodape-texto {
     color: #a5a5a5;
     font-size: 0.9rem;
-    
+
 }
 
 /* Responsividade */
