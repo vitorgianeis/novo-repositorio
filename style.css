@@ -53,24 +53,31 @@ body {
     padding: 1rem 2rem;
 }
 
-/* Versão para tablets */
-@media (max-width: 992px) {
+/* Tablets na horizontal */
+@media (max-width: 1024px) {
     .cabecalho-container {
-        padding: 1rem 4%;
+        padding: 1rem 1.5rem; /* Reduz um pouco mas mantém proporção */
     }
 }
 
-/* Versão para celulares */
+/* Tablets na vertical e celulares grandes */
 @media (max-width: 768px) {
     .cabecalho-container {
-        padding: 0.8rem 3%;
+        padding: 0.8rem 1.2rem; /* Espaço confortável */
     }
 }
 
-/* Celulares pequenos */
-@media (max-width: 480px) {
+/* Celulares médios (iPhone 12/13, Galaxy S20+, etc) */
+@media (max-width: 576px) {
     .cabecalho-container {
-        padding: 0.6rem 15px; /* Padding fixo em telas muito pequenas */
+        padding: 0.7rem 1rem; /* Mais compacto mas ainda espaçoso */
+    }
+}
+
+/* Celulares pequenos (iPhone SE, etc) */
+@media (max-width: 400px) {
+    .cabecalho-container {
+        padding: 0.6rem 0.8rem; /* Máxima otimização de espaço */
     }
 }
 
