@@ -53,12 +53,7 @@ body {
     padding: 1rem 2rem;
 }
 
-/* Tablets na horizontal */
-@media (max-width: 1024px) {
-    .cabecalho-container {
-        padding: 1rem 1.5rem; /* Reduz um pouco mas mantém proporção */
-    }
-}
+
 
 /* Tablets na vertical e celulares grandes */
 @media (max-width: 768px) {
@@ -67,19 +62,6 @@ body {
     }
 }
 
-/* Celulares médios (iPhone 12/13, Galaxy S20+, etc) */
-@media (max-width: 576px) {
-    .cabecalho-container {
-        padding: 0.7rem 1rem; /* Mais compacto mas ainda espaçoso */
-    }
-}
-
-/* Celulares pequenos (iPhone SE, etc) */
-@media (max-width: 400px) {
-    .cabecalho-container {
-        padding: 0.6rem 0.8rem; /* Máxima otimização de espaço */
-    }
-}
 
 .cabecalho.scrolled {
     background-color: rgba(26, 26, 46, 0.98);
