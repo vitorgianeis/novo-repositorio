@@ -58,7 +58,33 @@ body {
 /* Tablets na vertical e celulares grandes */
 @media (max-width: 768px) {
     .cabecalho-container {
-        padding: 0.8rem 1.2rem; /* Espaço confortável */
+        padding: 1rem 1.8rem; /* Aumentei consideravelmente */
+        flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    }
+    
+    .cabecalho-imagem {
+        height: 48px;
+        width: 48px;
+        margin-right: 0.5rem; /* Espaço extra após a logo */
+    }
+    
+    .menu-mobile {
+        padding: 0.8rem; /* Área de toque maior */
+        font-size: 1.8rem; /* Ícone mais visível */
+    }
+    
+    /* Ajuste adicional para garantir que nada fique cortado */
+    body {
+        font-size: 17px; /* Tamanho de fonte base aumentado */
+    }
+    
+    .cabecalho-menu {
+        padding: 1rem 1.5rem; /* Espaço interno generoso */
+    }
+    
+    .cabecalho-menu-item {
+        font-size: 1.1rem; /* Texto legível */
+        padding: 0.8rem 0; /* Espaçamento entre links */
     }
 }
 
