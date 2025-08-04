@@ -45,7 +45,7 @@ body {
     
     .cabecalho-imagem {
         height: 40px;
-        width: 40px;
+        width: 50px;
     }
     
     .cabecalho-menu {
@@ -100,9 +100,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem; /* Reduzindo o padding para mobile */
+    box-sizing: border-box; /* Garante que padding não some à largura */
 }
 
 .cabecalho.scrolled {
