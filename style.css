@@ -56,7 +56,7 @@ body {
 
 
 /* Tablets na vertical e celulares grandes */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .cabecalho-container {
     display: flex;
     justify-content: space-between;
