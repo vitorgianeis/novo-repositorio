@@ -100,11 +100,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.5rem 1rem; /* Reduzindo o padding para mobile */
-    box-sizing: border-box; /* Garante que padding não some à largura */
+    padding: 1rem 2rem;
 }
 
 .cabecalho.scrolled {
