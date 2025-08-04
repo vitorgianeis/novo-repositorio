@@ -58,8 +58,13 @@ body {
 /* Tablets na vertical e celulares grandes */
 @media (max-width: 768px) {
     .cabecalho-container {
-        padding: 0.8rem 1.2rem; /* Espaço confortável */
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
 }
 
 
